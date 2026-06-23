@@ -21,10 +21,10 @@ const Sidebar = () => {
         </div>
 
         <Link to="/" style={getLinkStyle('/')}>📊 Dashboard</Link>
-        <Link to="/tasks" style={getLinkStyle('/tasks')}>✅ Tasks List</Link>
-        <Link to="/lectures" style={getLinkStyle('/lectures')}>📚 Lectures</Link>
-        <Link to="/notes" style={getLinkStyle('/notes')}>📝 My Notes</Link>
-        <Link to="/profile" style={getLinkStyle('/profile')}>👤 Profile & Summary</Link>
+        <Link to="/Task" style={getLinkStyle('/Task')}>✅ Tasks List</Link>
+        <Link to="/Lecture" style={getLinkStyle('/Lecture')}>📚 Lectures</Link>
+        <Link to="/Notes" style={getLinkStyle('/Notes')}>📝 My Notes</Link>
+        <Link to="/Profile" style={getLinkStyle('/Profile')}>👤 Profile & Summary</Link>
       </div>
 
       <button onClick={logout} style={{ ...styles.button, background: 'transparent', border: '1px solid rgba(239, 68, 68, 0.3)', color: '#EF4444', marginTop: 'auto', width: '100%', padding: '12px' }}>

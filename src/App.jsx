@@ -26,8 +26,8 @@ function App() {
           <div style={styles.main}>
             <Routes>
               <Route path="/" element={<Dashboard />} />
-              <Route path="/tasks" element={<Tasks />} />
-              <Route path="/lectures" element={<Lectures />} />
+              <Route path="/task" element={<Task />} />
+              <Route path="/lecture" element={<Lecture />} />
               <Route path="/notes" element={<Notes />} />
               <Route path="/profile" element={<Profile />} />
               {/* Redirect to dashboard if route not found */}
